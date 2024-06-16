@@ -1,0 +1,87 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+  background-color: rgba(159,205,221,255);
+}
+header{
+  width:100%;
+  background-color: #fefefe;
+}
+.header-container{
+  width:48%;
+  /* margin: 0 auto; */
+  margin-left:8%;
+  display:flex;
+  /* gap: 7rem; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+.header-container p{
+  font-size:2.2rem;
+}
+.main-container , .drug-main{
+  height:80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.drugSearch-container, .drug-detail{
+  display:flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  padding: 2rem;
+  gap:2rem;
+  border-radius: 10px;
+  height: fit-content;
+  /* position: relative; */
+  width: 350px;
+}
+#search-bar >form{
+  /* position: absolute; */
+  width:100%;
+  display:flex;
+  gap: 0.5rem;
+}
+input{
+  padding: 0.5rem;
+}
+button{
+  padding:0.5rem;
+  background-color: rgba(159,205,221,255);
+  border: none;
+  /* color: white; */
+  font-weight: 400;
+}
+button:hover{
+  cursor: pointer;
+}
+#search-results{
+  /* position: absolute; */
+ width:100%;
+ 
+
+}
+ul{
+  list-style-type:none;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  gap:0.45rem;
+  padding: 1rem;
+  margin: 5px;
+  background-color: rgb(233, 233, 233);
+}
+.drug-detail>p{
+  color:rgb(62, 62, 62);
+}
+span{
+  font-style: bold;
+  color:black;
+}
